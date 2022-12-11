@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int sushu;
+	scanf("%d", &sushu);
+	if ((sushu > 2) && (sushu % 2 != 0))
+	{
+	    printf("这是素数");
+	}
+	else if (2 == sushu)
+	{
+		printf("这是素数");
+	}
+	else
+	{
+		printf("这不是素数");
+	}
+	return 0;
+}
