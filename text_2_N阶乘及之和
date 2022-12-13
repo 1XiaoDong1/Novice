@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-	int i = 0, n = 0;
+	int i = 1, n = 0;
 	long s = 0,N = 1;
 	scanf("%d",&n);
 	for (i = 1; i <= n;i++)
@@ -13,4 +13,21 @@ int main()
 	printf("%d!=%d\n",n,N );
 	printf("s=%d\n",s);
 	
+	//scanf("%d",&n);
+	//while (i <= n)
+	//{
+	//	N *= i;
+	//	s = s + N;
+	//	i++;
+	//}
+	//printf("%d!=%d\n",n,N );
+	//printf("s=%d\n",s);
+	//   scanf("%d", &n);
+	//do {
+	//		N *= i;
+	//        s = s + N;
+	//        i++;
+	//} while (i <= n);
+	//printf("%d!=%d\n",n,N );
+ //   printf("s=%d\n",s);
 }
